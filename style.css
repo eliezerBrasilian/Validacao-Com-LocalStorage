@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex: 1 0 auto;
+  min-height: 100vh;
+  flex-basis: 100%;
+  background-image: url(".//imagens/pexels1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.titulo-de-main-content {
+  display: flex;
+  font-family: "Josefin Sans", sans-serif;
+}
+.tela-de-cadastro {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  padding: 20px;
+  border-radius: 6px;
+  border-style: solid;
+  border-color: transparent;
+  background-image: url("./imagens/pexels1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.login {
+  display: flex;
+  width: 500px;
+  height: 40px;
+  margin: 10px 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+.senha {
+  display: flex;
+  width: 500px;
+  height: 40px;
+  margin: 10px 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+.acessar {
+  display: flex;
+  margin: 0 auto;
+  padding: 14px 18px;
+  border-radius: 6px;
+  border-style: solid;
+  border-color: transparent;
+}
+
+@media (max-width: 610px) {
+  .tela-de-cadastro {
+    width: 90%;
+  }
+  .login {
+    width: 400px;
+  }
+  .senha {
+    width: 400px;
+  }
+}
+
+@media (max-width: 495px) {
+  .titulo-de-main-content {
+    font-size: 18px;
+  }
+  .login {
+    width: 200px;
+  }
+  .senha {
+    width: 200px;
+  }
+}
